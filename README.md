@@ -1,9 +1,5 @@
 # Campus Mail Bot - Autonomous Indoor Office Delivery Robot
 
-[![ROS 2](https://shields.io)](https://ros.org)
-[![Gazebo](https://shields.io)](https://gazebosim.org)
-[![Ubuntu](https://shields.io)](https://ubuntu.com)
-[![License](https://shields.io)](LICENSE)
 
 **Course:** DSAI 4304 Robotics Programming  
 **Instructor:** Dr. Shadia Yahya Baroud  
