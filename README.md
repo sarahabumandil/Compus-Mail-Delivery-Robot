@@ -1,4 +1,4 @@
-د# Campus Mail Bot - Autonomous Indoor Office Delivery Robot
+# Campus Mail Bot - Autonomous Indoor Office Delivery Robot
 
 **Course:** DSAI 4304 Robotics Programming  
 **Instructor:** Dr. Shadia Yahya Baroud  
