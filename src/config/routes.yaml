@@ -1,0 +1,14 @@
+# Delivery routes. Coordinates are WORLD-frame metres (as in worlds/campus_offices.sdf).
+# mission_runner converts them to the map frame:  map = world - start_world
+# (SLAM Toolbox and the starter map both put the map origin at the robot start pose).
+start_world: [-3.5, -2.5]
+
+locations:            # x, y (world), yaw (rad, 0 = +x, 1.5708 = +y / facing into the office)
+  reception: {x: -3.5, y: -2.5, yaw: 0.0}
+  office_a:  {x: -3.0, y:  2.5, yaw: 1.5708}
+  office_b:  {x:  0.0, y:  2.5, yaw: 1.5708}
+  office_c:  {x:  3.0, y:  2.5, yaw: 1.5708}
+
+routes:               # the first waypoint is the start (not scored); the rest are scored goals
+  default: [reception, office_a, office_b, office_c]
+  alt:     [reception, office_c, office_a, office_b]
