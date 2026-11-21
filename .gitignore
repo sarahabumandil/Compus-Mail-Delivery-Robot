@@ -1,0 +1,7 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+docs/evidence/*.pdf
+docs/evidence/*.gv
